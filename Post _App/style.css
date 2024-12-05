@@ -1,0 +1,82 @@
+* {box-sizing: border-box}
+
+body {
+  background-color:  #fff7f8;
+  font-family: sans-serif
+}
+
+h1 {
+  color:  #8c4842;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.create-post {
+  background-color:#ffa4b5;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid  #e2e0e0;
+  border-radius: 10px;
+
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:  #fafcff;
+}
+
+input[type=text]:focus {
+  background-color: #fafcff;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.submitbtn {
+  background-color: #fafcff;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  margin: 23px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+font-family: 'Courier New', Courier, monospace;
+font-size: medium;
+font-weight: bolder;
+font-style: italic;
+}
+
+.submitbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+form h1 {
+  font-weight: 200;
+}
+
+form label {
+  font-weight: 200;
+  color: #333;
+}
+
+.container h1 {
+  color: #333;
+}
